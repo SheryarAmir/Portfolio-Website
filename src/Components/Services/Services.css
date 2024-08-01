@@ -86,3 +86,56 @@ background:linear-gradient(270deg, #DF8908 50%, #B415FF 100%);
     
 
 }
+
+@media (max-width:768px){
+   .services{
+    align-items: start;
+    gap: 70px;
+    margin: 20px 70px;
+    
+   } 
+
+   .services-tittle h1{
+    padding: 0;
+    font-size: 50px;
+
+   }
+   .services-tittle img{
+    width: 130px;
+    margin-right: -20px;
+
+   }
+   .services-format{
+    gap: 20px;
+    padding: 32px;
+    width: 275px;
+
+   }
+   .services-format h2{
+    font-size: 28px;
+
+   }
+   .services-format p{
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 300px;
+   }
+.services-readmore img{
+    width: 20px;
+
+}
+.services_container{
+    grid-template-columns: 1fr 1fr;
+    grid-area: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+}
