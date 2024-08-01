@@ -13,6 +13,21 @@
  gap: 60px;
  font-size: 20px;
 }
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.nav-menu li img {
+    display: flex;
+    margin: auto;
+
+}
+.anchor-link {
+    text-decoration: none;
+    color:white;
+}
 .nav-connect {
     padding: 15px 20px;
     background: linear-gradient(267deg, #DA7C25 0.36% , #B923E1);
